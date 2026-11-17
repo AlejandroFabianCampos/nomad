@@ -13,7 +13,7 @@ chrono = {
   features = ["clock", "serde"]
 }
 clap = { version = "4.5", features = ["derive", "string"] }
-clickhouse = { version = "0.15", features = ["chrono", "rustls-tls"] }
+clickhouse = { version = "0.15.3", features = ["chrono", "rustls-tls"] }
 figment = { version = "0.10", features = ["toml", "yaml"] }
 hex = "0.4"
 indexmap = { version = "2", features = ["serde"] }
